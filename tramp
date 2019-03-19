@@ -1,0 +1,28 @@
+;; -*- emacs-lisp -*- <19/02/23 14:45:32 /home/qqqqq/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" "canadmin" "elastics.northeurope.cloudapp.azure.com" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 4.15.0-1037-azure")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("readlink" "\\readlink")
+  ("gid-string" "canadmin")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("gvfs-monitor-dir" nil)
+  ("inotifywait" nil)
+  ("uid-integer" 1000)
+  ("git" "\\git"))
+ (["ssh" "karppie1" "kosh.aalto.fi" nil nil]
+  nil))
