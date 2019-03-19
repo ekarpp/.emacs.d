@@ -1,0 +1,21 @@
+
+;; ----- smex-history -----
+(
+ ansi-term
+ indent-relative
+ customize-variable
+ term
+ shell
+ list-colors-display
+ cd
+)
+
+;; ----- smex-data -----
+(
+ (list-colors-display . 1)
+ (shell . 5)
+ (ansi-term . 37)
+ (term . 1)
+ (customize-variable . 2)
+ (indent-relative . 1)
+)
