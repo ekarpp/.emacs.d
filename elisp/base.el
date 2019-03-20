@@ -44,6 +44,7 @@
       ;; indendation
       c-basic-offset                     4
       js-indent-level                    2
+      lua-indent-level                   4
 
       inhibit-startup-message            t
       fringes-outside-margins            t

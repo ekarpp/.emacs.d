@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ el-get-install
  ansi-term
  indent-relative
  customize-variable
  term
  shell
  list-colors-display
- cd
 )
 
 ;; ----- smex-data -----
@@ -18,4 +18,5 @@
  (term . 1)
  (customize-variable . 2)
  (indent-relative . 1)
+ (el-get-install . 1)
 )
