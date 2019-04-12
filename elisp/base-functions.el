@@ -17,7 +17,7 @@
   (newline)
   (set 'p (point))
   (indent-for-tab-command)
-  (when (not (equal p (point))) (delete-char -2))
+  (when (not (equal p (point))) (delete-char -4))
   (forward-char)
   (newline 2)
   (indent-for-tab-command)
