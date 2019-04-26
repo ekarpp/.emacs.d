@@ -1,0 +1,128 @@
+make -j
+./grading benchmark
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+make -j
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./so-test 100000000
+make -j
+./so-test 100000000
+./grading benchmark
+./grading benchmark
+make -j
+./grading benchmark
+./grading benchmark
+./so-test
+make -j
+./so-test
+make -j
+./so-test
+make -j
+./so-test
+make -j
+./grading benchmark
+make -j
+./grading benchmark
+./so-test 100000000
+make -j
+./so-test
+valgrind ./so-test
+make -j
+./so-test
+make -j
+./so-test
+make -j
+./so-test
+./so-test 2
+make -j
+./so-test 2
+make -j
+./so-test 2
+make -j
+make -j
+./so-test 2
+make -j
+./so-test 2
+make -j
+./so-test 2
+ls
+cat asd.cc
+make -j
+./so-test 2
+make -j
+./grading test
+./so-test
+make -j
+./so-test
+make -j
+./so-test
+w
+w
+make -j
+./so-test
+make -j
+make -j
+./so-test 811
+make -j
+./so-test 811
+make -j
+./so-test 811
+make -j
+./so-test 811
+exit
+ls
+ls -a
+rm .so.cc.swp
+make -j
+make -j
+./so-test 811
+make -j
+make -j
+./so-test 811
+make -j
+./grading test
+./so-test
+make -j
+./so-test
+make -j
+./so-test
+make -j
+make -j
+make -j
+make -j
+./grading test
+make -j
+./grading test
+./grading benchmark
+./grading do
+w
+exit
+exit
+exit
