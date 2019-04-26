@@ -54,6 +54,8 @@
 (setq-default indent-tabs-mode nil
               truncate-lines   nil)
 
+(add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
+
 ;; Bookmarks
 (setq
  ;; persistent bookmarks
