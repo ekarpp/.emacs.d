@@ -1,128 +1,128 @@
-make -j
-./grading benchmark
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-make -j
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./so-test 100000000
-make -j
-./so-test 100000000
-./grading benchmark
-./grading benchmark
-make -j
-./grading benchmark
-./grading benchmark
-./so-test
-make -j
-./so-test
-make -j
-./so-test
-make -j
-./so-test
-make -j
-./grading benchmark
-make -j
-./grading benchmark
-./so-test 100000000
-make -j
-./so-test
-valgrind ./so-test
-make -j
-./so-test
-make -j
-./so-test
-make -j
-./so-test
-./so-test 2
-make -j
-./so-test 2
-make -j
-./so-test 2
-make -j
-make -j
-./so-test 2
-make -j
-./so-test 2
-make -j
-./so-test 2
+make
+./outmake
+make
+make
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+make
+make
+make
+./out
+make
+make
+cat fragment.glsl
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+./out
+make
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+make
+./out
 ls
-cat asd.cc
-make -j
-./so-test 2
-make -j
-./grading test
-./so-test
-make -j
-./so-test
-make -j
-./so-test
-w
-w
-make -j
-./so-test
-make -j
-make -j
-./so-test 811
-make -j
-./so-test 811
-make -j
-./so-test 811
-make -j
-./so-test 811
+mv shader.glsl vertex.glsl
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+./out
+make
+./out
+make
+make
+./out
+make
+./out
+make
+./out
 exit
-ls
-ls -a
-rm .so.cc.swp
-make -j
-make -j
-./so-test 811
-make -j
-make -j
-./so-test 811
-make -j
-./grading test
-./so-test
-make -j
-./so-test
-make -j
-./so-test
-make -j
-make -j
-make -j
-make -j
-./grading test
-make -j
-./grading test
-./grading benchmark
-./grading do
-w
-exit
-exit
+cat main.ccp | grep use
+cat main.ccp | grep Use
+cat main.ccp | grep glUse
+cat main.ccp | grep -i glUse
+cat main.cpp
+cat main.cpp | grep shader
+cat main.cpp | grep glUse
+make
+make
+./out
+make
+./out
+touch helpers.c
+mv helpers.c helpers.cpp
+elget
 exit

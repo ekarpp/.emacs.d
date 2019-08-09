@@ -1,23 +1,23 @@
 
 ;; ----- smex-history -----
 (
+ el-get-install
  eshell
  ansi-term
- shell
- el-get-install
  indent-relative
  customize-variable
  term
+ shell
 )
 
 ;; ----- smex-data -----
 (
  (list-colors-display . 1)
- (shell . 6)
- (ansi-term . 75)
+ (shell . 5)
+ (ansi-term . 40)
  (term . 1)
  (customize-variable . 2)
  (indent-relative . 1)
  (el-get-install . 2)
- (eshell . 34)
+ (eshell . 5)
 )
