@@ -243,6 +243,25 @@ Display a list of packages.
 
 ;;;***
 
+;;;### (autoloads nil "glsl-mode/glsl-mode" "glsl-mode/glsl-mode.el"
+;;;;;;  (23885 22041 820617 607000))
+;;; Generated autoloads from glsl-mode/glsl-mode.el
+
+(add-to-list 'auto-mode-alist '("\\.vert\\'" . glsl-mode))
+
+(add-to-list 'auto-mode-alist '("\\.frag\\'" . glsl-mode))
+
+(add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
+
+(add-to-list 'auto-mode-alist '("\\.glsl\\'" . glsl-mode))
+
+(autoload 'glsl-mode "glsl-mode/glsl-mode" "\
+Major mode for editing GLSL shader files.
+
+\(fn)" t nil)
+
+;;;***
+
 ;;;### (autoloads nil "lua-mode/lua-mode" "lua-mode/lua-mode.el"
 ;;;;;;  (23696 59317 338462 857000))
 ;;; Generated autoloads from lua-mode/lua-mode.el
@@ -272,7 +291,7 @@ When called interactively, switch to the process buffer.
 ;;;;;;  "el-get/el-get-core.el" "el-get/el-get-custom.el" "el-get/el-get-dependencies.el"
 ;;;;;;  "el-get/el-get-install.el" "el-get/el-get-methods.el" "el-get/el-get-notify.el"
 ;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el" "lua-mode/init-tryout.el")
-;;;;;;  (23696 59317 590588 213000))
+;;;;;;  (23885 22042 90215 370000))
 
 ;;;***
 
