@@ -1,0 +1,12 @@
+[submodule "el-get/el-get"]
+	path = el-get/el-get
+	url = https://github.com/dimitri/el-get
+[submodule "el-get/lua-mode"]
+	path = el-get/lua-mode
+	url = https://github.com/immerrr/lua-mode
+[submodule "el-get/ample-regexps.el"]
+	path = el-get/ample-regexps.el
+	url = https://github.com/immerrr/ample-regexps.el
+[submodule "el-get/glsl-mode"]
+	path = el-get/glsl-mode
+	url = https://github.com/jimhourihan/glsl-mode
