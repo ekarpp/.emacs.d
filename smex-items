@@ -1,23 +1,33 @@
 
 ;; ----- smex-history -----
 (
- el-get-install
+ LaTeX-math-mode
  eshell
- ansi-term
- indent-relative
- customize-variable
- term
- shell
+ LaTeX-mode
+ plain-tex-mode
+ plain-TeX-mode
+ TeX-mode
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
  (list-colors-display . 1)
  (shell . 5)
- (ansi-term . 40)
+ (ansi-term . 41)
  (term . 1)
  (customize-variable . 2)
  (indent-relative . 1)
- (el-get-install . 2)
- (eshell . 5)
+ (el-get-install . 6)
+ (eshell . 13)
+ (list-packages . 5)
+ (el-get-remove . 2)
+ (desktop-save-mode . 2)
+ (desktop-save . 1)
+ (pdf-view-mode . 3)
+ (TeX-mode . 1)
+ (LaTeX-mode . 2)
+ (plain-TeX-mode . 2)
+ (plain-tex-mode . 2)
+ (LaTeX-math-mode . 2)
 )
