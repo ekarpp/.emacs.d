@@ -1,128 +1,128 @@
-make
-./outmake
-make
-make
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-make
-make
-make
-./out
-make
-make
-cat fragment.glsl
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-make
-./out
-make
-make
-./out
-make
-./out
-make
-./out
-make
-make
-./out
-make
-./out
-make
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-make
-./out
-make
-make
-./out
 ls
-mv shader.glsl vertex.glsl
+unzip hyphenat.zip
+cd hyphenat
+ls
+cat README
+initexmf --update-fndb
+which texhash
+tlmgr update --self
+echo $TEXMF-HOME
+echo $TEXMF_HOME
+man texhash
+texhash --help
+echo $TEXMFDBS
+texhash --dry-run
+sudo texhash --dry-run
+sudo texhash
+cd ..
+ls
+rm -rf hyphenat
+cd ..
+ls
+cd KANDI
+ls
 make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
-make
-./out
+cd ..
+cd KANDI
+ls
 make
 make
-./out
 make
-./out
+rm main.pdf
 make
-./out
+ls
+cd KANDI
+ls
+cd ..
+ls
+cd .emacs.d
+ls
+cd elisp
+ls
+cat base.el
+nano base.el
+cd ..
+ls
+ls
+cd ..
+ls
+mkdir Koulu
+ls
+mkdir Media
+mv Games Media
+ls
+ls
+cd ..
+ls
+cat makefile
+cat Makefile
+make clean
+make
+ls
+ls
+cd luvut
+ls
+cat luku_koodaus.tex
+make
+cd ..
+make
+ls
 make
 make
-./out
-make
-./out
-make
-./out
-exit
-cat main.ccp | grep use
-cat main.ccp | grep Use
-cat main.ccp | grep glUse
-cat main.ccp | grep -i glUse
-cat main.cpp
-cat main.cpp | grep shader
-cat main.cpp | grep glUse
+ls
 make
 make
-./out
 make
-./out
-touch helpers.c
-mv helpers.c helpers.cpp
-elget
+make
+make
+make
+make
+make
+make
+ls
+cd luvut
+ls
+rm _region_.tex
+rm _region_.log
+ls
+rm prv_luku_koodaus.log
+cd ..
+ls
+cd _region_.prv
+ls
+cd ..
+rm -rf _region_.prv
+rm _region_.log
+rm _region_.tex
+ls
+rm prv_main.log
+cd ..
+ls
+cd .emacs.d
+ls
+cd elisp
+ls
+cd
+cd KANDI
+ls
+make
+make
+git
+git status
+python3
+python3
+make
+make
+make
+make
+make
+make
+make
+make
+git status
+make clean
+git status
+git add .
+git commit -m "fjdklsfjd"
+git push
 exit

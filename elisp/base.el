@@ -52,6 +52,18 @@
       fringes-outside-margins            t
       x-select-enable-clipboard          t
       use-package-always-ensure          t)
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3") 
+(global-auto-revert-mode t)
+(setq desktop-dirname             "~/.emacs.d/desktop/"
+      desktop-base-file-name      "emacs.desktop"
+      desktop-base-lock-name      "lock"
+      desktop-path                (list desktop-dirname)
+      desktop-save                t
+      desktop-files-not-to-save   "^$" ;reload tramp paths
+      desktop-load-locked-desktop nil
+      desktop-auto-save-timeout   30)
+(desktop-save-mode 1)
+
 
 (setq-default indent-tabs-mode nil
               truncate-lines   nil)

@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil "ample-regexps/ample-regexps" "ample-regexps/ample-regexps.el"
-;;;;;;  (23696 59315 190429 711000))
+;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from ample-regexps/ample-regexps.el
 
 (autoload 'define-arx "ample-regexps/ample-regexps" "\
@@ -56,10 +56,19 @@ Run `re-builder' using arx form named ARX-NAME.
 
 \(fn &optional ARX-NAME)" t nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ample-regexps/ample-regexps" '("define-arx--fn" "arx-")))
+
 ;;;***
 
-;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (23696 49866
-;;;;;;  476339 350000))
+;;;### (autoloads nil "ample-regexps/init-tryout" "ample-regexps/init-tryout.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ample-regexps/init-tryout.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ample-regexps/init-tryout" '("foobar-rx")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
 (autoload 'el-get-version "el-get/el-get" "\
@@ -156,10 +165,28 @@ already installed packages is considered.
 
 \(fn &optional SYNC &rest PACKAGES)" nil nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-autoloading" "el-get/el-get-autoloading.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-autoloading.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-autoloading" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-build" "el-get/el-get-build.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-build.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-build" '("el-get-")))
+
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-bundle" "el-get/el-get-bundle.el"
-;;;;;;  (23696 49866 472339 324000))
+;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get-bundle.el
 
 (autoload 'el-get-bundle-el-get "el-get/el-get-bundle" "\
@@ -200,7 +227,7 @@ version is used if `el-get-bundle-byte-compile' is non-nil.
 
 \(fn PACKAGE &rest FORM)" nil t)
 
-(put 'el-get-bundle 'lisp-indent-function 'defun)
+(function-put 'el-get-bundle 'lisp-indent-function 'defun)
 
 (autoload 'el-get-bundle! "el-get/el-get-bundle" "\
 Install PACKAGE and run initialization form.
@@ -209,12 +236,22 @@ required.
 
 \(fn PACKAGE &rest ARGS)" nil t)
 
-(put 'el-get-bundle! 'lisp-indent-function 'defun)
+(function-put 'el-get-bundle! 'lisp-indent-function 'defun)
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-bundle" '("el-get-bundle-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-byte-compile" "el-get/el-get-byte-compile.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-byte-compile.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-byte-compile" '("el-get-")))
 
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-check" "el-get/el-get-check.el"
-;;;;;;  (23696 49866 472339 324000))
+;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get-check.el
 
 (autoload 'el-get-check-recipe "el-get/el-get-check" "\
@@ -230,10 +267,36 @@ object or a file path.
 
 \(fn FILE-OR-BUFFER)" t nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-check" '("el-get-check-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-core" "el-get/el-get-core.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-core.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-core" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-custom" "el-get/el-get-custom.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-custom.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-custom" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-dependencies" "el-get/el-get-dependencies.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-dependencies.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-dependencies" '("el-get-" "topological-sort")))
+
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-list-packages" "el-get/el-get-list-packages.el"
-;;;;;;  (23696 49866 476339 350000))
+;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -241,57 +304,50 @@ Display a list of packages.
 
 \(fn)" t nil)
 
-;;;***
-
-;;;### (autoloads nil "glsl-mode/glsl-mode" "glsl-mode/glsl-mode.el"
-;;;;;;  (23885 22041 820617 607000))
-;;; Generated autoloads from glsl-mode/glsl-mode.el
-
-(add-to-list 'auto-mode-alist '("\\.vert\\'" . glsl-mode))
-
-(add-to-list 'auto-mode-alist '("\\.frag\\'" . glsl-mode))
-
-(add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
-
-(add-to-list 'auto-mode-alist '("\\.glsl\\'" . glsl-mode))
-
-(autoload 'glsl-mode "glsl-mode/glsl-mode" "\
-Major mode for editing GLSL shader files.
-
-\(fn)" t nil)
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-list-packages" '("el-get-")))
 
 ;;;***
 
-;;;### (autoloads nil "lua-mode/lua-mode" "lua-mode/lua-mode.el"
-;;;;;;  (23696 59317 338462 857000))
-;;; Generated autoloads from lua-mode/lua-mode.el
+;;;### (autoloads nil "el-get/el-get-methods" "el-get/el-get-methods.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-methods.el
 
-(autoload 'lua-mode "lua-mode/lua-mode" "\
-Major mode for editing Lua code.
-
-\(fn)" t nil)
-
-(add-to-list 'auto-mode-alist '("\\.lua\\'" . lua-mode))
-
-(add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
-
-(defalias 'run-lua #'lua-start-process)
-
-(autoload 'lua-start-process "lua-mode/lua-mode" "\
-Start a Lua process named NAME, running PROGRAM.
-PROGRAM defaults to NAME, which defaults to `lua-default-application'.
-When called interactively, switch to the process buffer.
-
-\(fn &optional NAME PROGRAM STARTFILE &rest SWITCHES)" t nil)
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-methods" '("el-get-insecure-check")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("ample-regexps/init-tryout.el" "el-get/el-get-autoloading.el"
-;;;;;;  "el-get/el-get-build.el" "el-get/el-get-byte-compile.el"
-;;;;;;  "el-get/el-get-core.el" "el-get/el-get-custom.el" "el-get/el-get-dependencies.el"
-;;;;;;  "el-get/el-get-install.el" "el-get/el-get-methods.el" "el-get/el-get-notify.el"
-;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el" "lua-mode/init-tryout.el")
-;;;;;;  (23885 22042 90215 370000))
+;;;### (autoloads nil "el-get/el-get-notify" "el-get/el-get-notify.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-notify.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-notify" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-recipes" "el-get/el-get-recipes.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-recipes.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-recipes" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "el-get/el-get-status" "el-get/el-get-status.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from el-get/el-get-status.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-status" '("el-get-")))
+
+;;;***
+
+;;;### (autoloads nil "s/s" "s/s.el" (0 0 0 0))
+;;; Generated autoloads from s/s.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "s/s" '("s-")))
+
+;;;***
+
+;;;### (autoloads nil nil ("el-get/el-get-install.el") (0 0 0 0))
 
 ;;;***
 
