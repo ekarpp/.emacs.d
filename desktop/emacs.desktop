@@ -2,102 +2,42 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Feb 22 19:36:26 2020
+;; Created Mon Feb 24 14:46:47 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24145 26266 315176 102000) (desktop . "208") "qqqqq@ppppp" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "wheat") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "thistle") (sticky) (environment) (frameset--id . "5C8A-77B4-B15E-933F") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (frameset--text-pixel-width . 1900) (frameset--text-pixel-height . 1041) (height . 61) (width . 237) (left . 1920) (top . 37)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 18) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 160) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 144) (min-pixel-height-safe . 17) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1024) (total-width . 240) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "luku_tallennus.tex" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 6298) (start . 3531))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "main.tex" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 6430) (start . 5354)))))])
+(setq desktop-saved-frameset [frameset 1 (24147 50615 877487 281000) (desktop . "208") "qqqqq@ppppp" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "wheat") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "thistle") (sticky) (environment) (frameset--id . "F837-5436-3D93-01FB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (frameset--text-pixel-width . 1900) (frameset--text-pixel-height . 1041) (height . 61) (width . 237) (left . 1920) (top . 37)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 68) (min-pixel-width . 80) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 17) (min-pixel-width-safe . 16)) leaf (pixel-width . 1916) (pixel-height . 1024) (total-width . 239) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (buffer "KANDI" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 228) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("pdf-" "pdf-tools"))
+(setq search-ring nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/qqqqq/KANDI/luvut/luku_tausta.tex" "/home/qqqqq/KANDI/luvut/luku_johdanto.tex" "/home/qqqqq/KANDI/luvut/luku_tallennus.tex" "/home/qqqqq/KANDI/luvut/luku_koodaus.tex" "/home/qqqqq/KANDI/main.pdf" "/home/qqqqq/KANDI/luvut/" "/home/qqqqq/KANDI/"))
+(setq file-name-history '("/home/qqqqq/Koulu/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/home/qqqqq/KANDI/main.tex"
-  "main.tex"
-  'latex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  6430
-  '(nil nil)
-  t
-  nil
-  '((indent-tabs-mode) (buffer-display-time 24145 26264 818849 812000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/KANDI/luvut/luku_tallennus.tex"
-  "luku_tallennus.tex"
-  'latex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  6298
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 24145 26171 156136 747000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/KANDI/lahteet.bib"
-  "lahteet.bib"
-  'bibtex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  2602
-  '(3835 nil)
-  nil
-  nil
-  '((buffer-display-time 24145 26169 911707 450000) (buffer-file-coding-system . utf-8-unix) (TeX-master . t))
-  '((mark-ring (3327 3638 3596 3597 4047 2602))))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/KANDI/luvut/luku_tausta.tex"
-  "luku_tausta.tex"
-  'latex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  393
-  '(6140 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 24145 25977 495321 163000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (6141 4296 4782 2416 2624 7087 6500 7083 6798 5991 6057 6499 6549))))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/KANDI/luvut/luku_koodaus.tex"
-  "luku_koodaus.tex"
-  'latex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  2990
-  '(1636 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 24145 24200 764627 149000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (1551 1635 1551 1489 1480 1092 1480 1048 1092 863 2690 2796 1635 3602 3564 2990))))
-
 (desktop-create-buffer 208
   nil
   "KANDI"
   'dired-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  1307
+  '(global-auto-revert-mode override-global-mode linum-mode ivy-mode)
+  228
   '(nil nil)
   t
-  '("/home/qqqqq/KANDI/")
-  '((buffer-display-time 24145 23144 153491 337000))
+  '("/home/qqqqq/Koulu/KANDI/")
+  '((buffer-display-time 24147 50613 562091 471000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/qqqqq/KANDI/luvut/luku_johdanto.tex"
-  "luku_johdanto.tex"
-  'latex-mode
-  '(global-auto-revert-mode override-global-mode linum-mode TeX-PDF-mode ivy-mode)
-  1
+  nil
+  "Koulu"
+  'dired-mode
+  '(global-auto-revert-mode override-global-mode linum-mode ivy-mode)
+  214
   '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 24145 15004 130049 782000) (buffer-file-coding-system . utf-8-unix))
+  t
+  '("/home/qqqqq/Koulu/")
+  '((buffer-display-time 24147 50612 936546 900000))
   '((mark-ring nil)))
 

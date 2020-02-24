@@ -1,16 +1,3 @@
-ls
-unzip hyphenat.zip
-cd hyphenat
-ls
-cat README
-initexmf --update-fndb
-which texhash
-tlmgr update --self
-echo $TEXMF-HOME
-echo $TEXMF_HOME
-man texhash
-texhash --help
-echo $TEXMFDBS
 texhash --dry-run
 sudo texhash --dry-run
 sudo texhash
@@ -125,4 +112,17 @@ git status
 git add .
 git commit -m "fjdklsfjd"
 git push
+exit
+ls
+cd ..
+ls
+make
+cat Makefile
+make
+make
+make
+cd ..
+make
+which evince
+evince
 exit

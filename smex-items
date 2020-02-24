@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- LaTeX-math-mode
+ describe-variable
+ customize-variable
  eshell
  LaTeX-mode
  plain-tex-mode
  plain-TeX-mode
- TeX-mode
- list-packages
+ ansi-term
 )
 
 ;; ----- smex-data -----
@@ -16,10 +16,10 @@
  (shell . 5)
  (ansi-term . 41)
  (term . 1)
- (customize-variable . 2)
+ (customize-variable . 4)
  (indent-relative . 1)
  (el-get-install . 6)
- (eshell . 13)
+ (eshell . 15)
  (list-packages . 5)
  (el-get-remove . 2)
  (desktop-save-mode . 2)
@@ -30,4 +30,6 @@
  (plain-TeX-mode . 2)
  (plain-tex-mode . 2)
  (LaTeX-math-mode . 2)
+ (TeX-PDF-mode . 2)
+ (describe-variable . 1)
 )
