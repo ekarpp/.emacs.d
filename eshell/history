@@ -1,128 +1,128 @@
-texhash --dry-run
-sudo texhash --dry-run
-sudo texhash
-cd ..
+rm tokens.jsonls
 ls
-rm -rf hyphenat
-cd ..
-ls
-cd KANDI
-ls
-make
-cd ..
-cd KANDI
-ls
-make
-make
-make
-rm main.pdf
-make
-ls
-cd KANDI
-ls
-cd ..
-ls
-cd .emacs.d
-ls
-cd elisp
-ls
-cat base.el
-nano base.el
-cd ..
-ls
-ls
-cd ..
-ls
-mkdir Koulu
-ls
-mkdir Media
-mv Games Media
-ls
-ls
-cd ..
-ls
-cat makefile
-cat Makefile
-make clean
-make
-ls
-ls
-cd luvut
-ls
-cat luku_koodaus.tex
-make
-cd ..
-make
-ls
-make
-make
-ls
-make
-make
-make
-make
-make
-make
-make
-make
-make
-ls
-cd luvut
-ls
-rm _region_.tex
-rm _region_.log
-ls
-rm prv_luku_koodaus.log
-cd ..
-ls
-cd _region_.prv
-ls
-cd ..
-rm -rf _region_.prv
-rm _region_.log
-rm _region_.tex
-ls
-rm prv_main.log
-cd ..
-ls
-cd .emacs.d
-ls
-cd elisp
-ls
-cd
-cd KANDI
-ls
-make
-make
-git
-git status
-python3
-python3
-make
-make
-make
-make
-make
-make
-make
-make
-git status
-make clean
-git status
-git add .
-git commit -m "fjdklsfjd"
-git push
+rm tokens.json
+./run
+./run
+./run
+./run
+./run
+./run
+./run
+./run
+./run
+./run
+{'Authorization': 'Bearqer ya29.a0AfH6SMCVLm5uyEvqDlhWxReWAiRE72C4B7jo3HmmL7GryxOqCZSh8Ahppdz5Es_BH54lz5aRn2QQHHYLmo8AL3vWWio3wjU9Db1oEWBqZmhVhNPRZuEwHep3lXXbKr-67EFH2x_iqxUPrSH210od4jOkM1lB7kcWYLc'}
+q
 exit
 ls
+make
+cd test
+git status
+cd tests
+ls
+cat lambda.scm
 cd ..
 ls
-make
-cat Makefile
-make
-make
-make
+git status
+git log
+exit
 cd ..
 make
-which evince
-evince
+exit
+cd scheme
+git status
+ls
+make
+make
+make
+make
+make
+make
+valgrind ./scheme tests/lambda.scm
+make
+make
+make
+make
+make -j4
+cat tests/recursion.scm
+make schieme
+make scheme
+make clean
+make scheme
+./scheme tests/church.scm
+make scheme
+./scheme tests/church.scm
+make scheme
+make scheme
+./scheme tests/church.scm
+gdb ./scheme tests/church.scm
+make scheme
+make scheme
+./scheme tests/church.scm
+ls
+make scheme
+gdb scheme
+make scheme
+./scheme tests/church.scm
+gdb ./scheme
+make scheme
+./scheme tests/church.scm
+make
+make
+make
+ls
+exit
+ls
+touch .gitignore
+rm emacs.desktop
+cat client.json
+cat tokens.json
+ls
+cat test.py
+ls
+touch requirements.txt
+cat requirements.txt
+git init
+git status
+git add .
+git status
+git status
+git status
+ls
+ls
+git status
+git add .
+git commit -m "initial commit"
+ls
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+python3
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py
+youtube-dl
+./uld.py
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+./uld.py -h
+git status
+git add .
+git commit -m "update parser"
+./uld.py -h
+./uld.py -h
+./uld.py -h
+ls
+git status
+git add .
+git commit -m "guess MIME from file extension"
 exit
