@@ -2,114 +2,42 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Aug 31 19:05:47 2020
+;; Created Wed Sep 16 22:03:05 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24397 8155 574397 664000) (desktop . "208") "qqqqq@ppppp" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "wheat") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "thistle") (sticky) (environment) (modeline . t) (unsplittable) (frameset--id . "34B7-6DF4-FDF1-B00B") (frameset--mini t . t) (display . ":0") (icon-name) (explicit-name) (frameset--text-pixel-width . 1900) (frameset--text-pixel-height . 1041) (height . 61) (width . 237) (left . 0) (top . 37)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 18) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 160) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 144) (min-pixel-height-safe . 17) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1024) (total-width . 240) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "exec.c" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1714) (start . 525))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "church.scm" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 598) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (24418 24937 32257 926000) (desktop . "208") "qqqqq@ppppp" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "wheat") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "thistle") (sticky) (environment) (modeline . t) (unsplittable) (frameset--id . "CC2C-05BD-5C86-A218") (frameset--mini t . t) (display . ":0") (fullscreen-restore) (icon-name) (explicit-name) (frameset--text-pixel-width . 1884) (frameset--text-pixel-height . 1041) (height . 61) (width . 235) (left . 1920) (top . 37)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 18) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 160) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 144) (min-pixel-height-safe . 17) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1024) (total-width . 240) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "main.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 456) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1024) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "main.html" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 166) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("_init" "expr_init" "_copy" "_lambda" "_get" "op" "procedure_" "_proce" "empty" "value_free" "procedure" "list" "flag" "47" "error" "l"))
+(setq search-ring '("_identifier" "_init" "expr_init" "_copy" "_lambda" "_get" "op" "procedure_" "_proce" "empty" "value_free" "procedure" "list" "flag" "47" "error"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/qqqqq/scheme/main.c" "/home/qqqqq/scheme/tests/lambda.scm" "/home/qqqqq/scheme/src/cons.h" "/home/qqqqq/scheme/src/cons.c" "/home/qqqqq/scheme/tests/church.scm" "/home/qqqqq/scheme/src/builtins.h" "/home/qqqqq/scheme/src/builtins.c" "/home/qqqqq/scheme/src/exec.c" "/home/qqqqq/Projektit/scheme/src/exec.h" "/home/qqqqq/Projektit/utube_uld/test.py" "/home/qqqqq/Projektit/utube_uld/oauth_tokens.py" "/home/qqqqq/Projektit/utube_uld/" "/home/qqqqq/Projektit/scheme/test.scm" "/home/qqqqq/Projektit/scheme/src/builtins.c" "/home/qqqqq/Projektit/scheme/src/exec.c" "/home/qqqqq/Projektit/scheme/src/parser.h" "/home/qqqqq/Projektit/scheme/src/parser.c" "/home/qqqqq/Projektit/scheme/src/cons.h" "/home/qqqqq/Projektit/scheme/src/cons.c" "/home/qqqqq/Koulu/codeforces/" "/home/qqqqq/Koulu/codeforces/634/a.cpp" "/home/qqqqq/Koulu/KANDI/ESIT/makefile" "/home/qqqqq/Koulu/KANDI/RAPORTTI/luvut/02_tausta.tex" "/home/qqqqq/Koulu/tex/C/prog/4/readme.tex" "/home/qqqqq/lua.py" "/home/qqqqq/lua.grammar" "/home/qqqqq/Koulu/KANDI/ESIT/" "/home/qqqqq/Koulu/KANDI/RAPORTTI/" "/home/qqqqq/.emacs.d/desktop/" "/home/qqqqq/Koulu/KANDI/" "/home/qqqqq/Koulu/tex/C/prog/" "/home/qqqqq/Koulu/tex/C/ex3.tex"))
+(setq file-name-history '("/home/qqqqq/Projektit/html_mandelbrot/main.html" "/home/qqqqq/Projektit/html_mandelbrot/main.js" "/home/qqqqq/Projektit/django_mandelbrot/main.html" "/home/qqqqq/Projektit/django_mandelbrot/main.js" "/home/qqqqq/Projektit/scheme/src/lexer.c" "/home/qqqqq/Projektit/scheme/" "/home/qqqqq/church.scm" "/home/qqqqq/scheme/main.c" "/home/qqqqq/scheme/tests/lambda.scm" "/home/qqqqq/scheme/src/cons.h" "/home/qqqqq/scheme/src/cons.c" "/home/qqqqq/scheme/tests/church.scm" "/home/qqqqq/scheme/src/builtins.h" "/home/qqqqq/scheme/src/builtins.c" "/home/qqqqq/scheme/src/exec.c" "/home/qqqqq/Projektit/scheme/src/exec.h" "/home/qqqqq/Projektit/utube_uld/test.py" "/home/qqqqq/Projektit/utube_uld/oauth_tokens.py" "/home/qqqqq/Projektit/utube_uld/" "/home/qqqqq/Projektit/scheme/test.scm" "/home/qqqqq/Projektit/scheme/src/builtins.c" "/home/qqqqq/Projektit/scheme/src/exec.c" "/home/qqqqq/Projektit/scheme/src/parser.h" "/home/qqqqq/Projektit/scheme/src/parser.c" "/home/qqqqq/Projektit/scheme/src/cons.h" "/home/qqqqq/Projektit/scheme/src/cons.c" "/home/qqqqq/Koulu/codeforces/" "/home/qqqqq/Koulu/codeforces/634/a.cpp" "/home/qqqqq/Koulu/KANDI/ESIT/makefile" "/home/qqqqq/Koulu/KANDI/RAPORTTI/luvut/02_tausta.tex" "/home/qqqqq/Koulu/tex/C/prog/4/readme.tex" "/home/qqqqq/lua.py" "/home/qqqqq/lua.grammar" "/home/qqqqq/Koulu/KANDI/ESIT/" "/home/qqqqq/Koulu/KANDI/RAPORTTI/" "/home/qqqqq/.emacs.d/desktop/" "/home/qqqqq/Koulu/KANDI/" "/home/qqqqq/Koulu/tex/C/prog/" "/home/qqqqq/Koulu/tex/C/ex3.tex"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/qqqqq/scheme/src/exec.c"
-  "exec.c"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  1714
-  '(2201 nil)
-  nil
-  nil
-  '((buffer-display-time 24397 8125 533780 651000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (2287 2080))))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/tests/church.scm"
-  "church.scm"
-  'scheme-mode
+  "/home/qqqqq/Projektit/html_mandelbrot/main.html"
+  "main.html"
+  'mhtml-mode
   '(global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  598
+  166
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24397 8122 597598 601000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 24418 24936 182644 117000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/qqqqq/scheme/src/cons.c"
-  "cons.c"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  4486
-  '(3409 nil)
-  nil
-  nil
-  '((buffer-display-time 24397 7396 477494 632000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (3107 5616 1))))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/main.c"
-  "main.c"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  364
-  '(364 nil)
-  nil
-  nil
-  '((buffer-display-time 24397 6511 765143 143000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/src/builtins.c"
-  "builtins.c"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  6995
-  '(8686 nil)
-  nil
-  nil
-  '((buffer-display-time 24397 5784 762030 707000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (8686))))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/tests/lambda.scm"
-  "lambda.scm"
-  'scheme-mode
+  "/home/qqqqq/Projektit/html_mandelbrot/main.js"
+  "main.js"
+  'js-mode
   '(global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  465
-  '(nil nil)
+  456
+  '(463 nil)
   nil
   nil
-  '((buffer-display-time 24397 5662 651527 111000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/src/cons.h"
-  "cons.h"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  438
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 24397 5049 729346 576000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/qqqqq/scheme/src/builtins.h"
-  "builtins.h"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode override-global-mode linum-mode ivy-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 24397 4331 640489 46000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
+  '((buffer-display-time 24418 24355 845794 908000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (531 428 427 1439 1281 1870 166 1870 1870 1870 1870 1870 164 1870 456))))
 

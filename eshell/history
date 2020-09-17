@@ -1,41 +1,3 @@
-rm tokens.jsonls
-ls
-rm tokens.json
-./run
-./run
-./run
-./run
-./run
-./run
-./run
-./run
-./run
-./run
-{'Authorization': 'Bearqer ya29.a0AfH6SMCVLm5uyEvqDlhWxReWAiRE72C4B7jo3HmmL7GryxOqCZSh8Ahppdz5Es_BH54lz5aRn2QQHHYLmo8AL3vWWio3wjU9Db1oEWBqZmhVhNPRZuEwHep3lXXbKr-67EFH2x_iqxUPrSH210od4jOkM1lB7kcWYLc'}
-q
-exit
-ls
-make
-cd test
-git status
-cd tests
-ls
-cat lambda.scm
-cd ..
-ls
-git status
-git log
-exit
-cd ..
-make
-exit
-cd scheme
-git status
-ls
-make
-make
-make
-make
 make
 make
 valgrind ./scheme tests/lambda.scm
@@ -125,4 +87,42 @@ ls
 git status
 git add .
 git commit -m "guess MIME from file extension"
+exit
+git status
+cd ..
+mv django_mandelbrot html_mandelbrot
+cd html_mandelbrot
+ls
+git init
+git status
+git add .
+git commit -m "initial commit"
+q
+exit
+ls
+git status
+git diff
+git status
+git add .
+git commit -m "create canvas in js"
+git push
+git status
+git diff
+git diff
+git diff
+git add .
+git commit -m "rename LIM, add variables to space dimensions"
+git diff
+git status
+git add .
+git commit -m "add handler for input, no functionality yet"
+git status
+git diff
+git add .
+git commit -m "refactoring"
+git push
+git status
+git add .
+git commit -m "remove redundant line"
+git push
 exit
