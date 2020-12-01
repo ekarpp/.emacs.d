@@ -79,6 +79,17 @@
 
 (add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
 
+;; for ffmpeg
+(c-add-style "ffmpeg"
+             '("k&r"
+               (c-basic-offset . 4)
+               (indent-tabs-mode . nil)
+               (show-trailing-whitespace . t)
+               (c-offsets-alist
+                (statement-cont . (c-lineup-assignments +)))
+               )
+             )
+
 ;; Bookmarks
 (setq
  ;; persistent bookmarks
