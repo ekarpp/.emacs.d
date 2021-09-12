@@ -42,7 +42,7 @@
       exec-path                          (append exec-path '("/usr/local/bin/"))
 
       ;; indendation
-      c-basic-offset                     4
+      c-basic-offset                     2
       js-indent-level                    2
       lua-indent-level                   4
       ;; brackest on new line

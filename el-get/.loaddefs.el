@@ -3,78 +3,11 @@
 ;;; Code:
 
 
-;;;### (autoloads nil "ample-regexps/ample-regexps" "ample-regexps/ample-regexps.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ample-regexps/ample-regexps.el
-
-(autoload 'define-arx "ample-regexps/ample-regexps" "\
-Generate a custom rx-like macro under name MACRO.
-
-See `rx' for how the generated macro can be invoked.
-
-FORM-DEFS is a list of custom s-exp definitions to create whose
-elements have the form (SYM DEF), where DEF is one of
-the following:
-
-- \"LITERAL\" -- create a matcher to match a string literally
-
-- (regexp \"LITERAL\") -- create a match given a regexp
-
-- SYMBOL -- create an alias for a symbol either defined earlier
-  on the list or provided by `rx'
-
-- (SUBFORM ...) -- create an alias for an application of s-exp
-  subform either defined earlier on the list or provided by `rx'
-
-- (:func #'FORM-FUNC ...) -- create an s-exp definition
-
-The most interesting here is the last variant.  When a
-corresponding rx form will be encountered, FORM-FUNC will be
-called with all elements of that form as arguments (with the
-first one being the form symbol itself).  FORM-FUNC must then
-return a valid s-exp or a properly grouped plain regexp.
-
-Another keywords that are recognized in the plist are:
-- :min-args -- minimum number of arguments for that form (default nil)
-- :max-args -- maximum number of arguments for that form (default nil)
-- :predicate -- if given, all rx form arguments must satisfy it
-
-\(fn MACRO FORM-DEFS)" nil t)
-
-(autoload 'arx-and "ample-regexps/ample-regexps" "\
-Generate an expression to match a sequence of FORMS.
-
-\(fn FORMS)" nil nil)
-
-(autoload 'arx-or "ample-regexps/ample-regexps" "\
-Generate an expression to match one of FORMS.
-
-\(fn FORMS)" nil nil)
-
-(autoload 'arx-builder "ample-regexps/ample-regexps" "\
-Run `re-builder' using arx form named ARX-NAME.
-
-\(fn &optional ARX-NAME)" t nil)
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ample-regexps/ample-regexps" '("define-arx--fn" "arx-")))
-
-;;;***
-
-;;;### (autoloads nil "ample-regexps/init-tryout" "ample-regexps/init-tryout.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ample-regexps/init-tryout.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ample-regexps/init-tryout" '("foobar-rx")))
-
-;;;***
-
 ;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
 (autoload 'el-get-version "el-get/el-get" "\
-Message the current el-get version
-
-\(fn)" t nil)
+Message the current el-get version" t nil)
 
 (autoload 'el-get-install "el-get/el-get" "\
 Cause the named PACKAGE to be installed after all of its
@@ -100,9 +33,7 @@ Update all installed packages of type TYPE.
 \(fn TYPE)" t nil)
 
 (autoload 'el-get-self-update "el-get/el-get" "\
-Update el-get itself.  The standard recipe takes care of reloading the code.
-
-\(fn)" t nil)
+Update el-get itself.  The standard recipe takes care of reloading the code." t nil)
 
 (autoload 'el-get-remove "el-get/el-get" "\
 Remove any PACKAGE that is know to be installed or required.
@@ -133,9 +64,7 @@ Compute the checksum of the given package, and put it in the kill-ring
 (autoload 'el-get-self-checksum "el-get/el-get" "\
 Compute the checksum of the running version of el-get itself.
 
-Also put the checksum in the kill-ring.
-
-\(fn)" t nil)
+Also put the checksum in the kill-ring." t nil)
 
 (autoload 'el-get "el-get/el-get" "\
 Ensure that packages have been downloaded once and init them as needed.
@@ -291,7 +220,7 @@ object or a file path.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from el-get/el-get-dependencies.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-dependencies" '("el-get-" "topological-sort")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-dependencies" '("el-get-")))
 
 ;;;***
 
@@ -300,9 +229,7 @@ object or a file path.
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
-Display a list of packages.
-
-\(fn)" t nil)
+Display a list of packages." t nil)
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-list-packages" '("el-get-")))
 
@@ -337,13 +264,6 @@ Display a list of packages.
 ;;; Generated autoloads from el-get/el-get-status.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "el-get/el-get-status" '("el-get-")))
-
-;;;***
-
-;;;### (autoloads nil "s/s" "s/s.el" (0 0 0 0))
-;;; Generated autoloads from s/s.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "s/s" '("s-")))
 
 ;;;***
 

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-region
+ eval-buffer
  eshell
  replace-string
  indent-region
  rjsx-mode
  package-list-packages
- overwrite-mode
- replace-regexp
 )
 
 ;; ----- smex-data -----
@@ -39,4 +39,6 @@
  (package-list-packages . 2)
  (rjsx-mode . 1)
  (replace-string . 7)
+ (eval-buffer . 1)
+ (eval-region . 1)
 )
