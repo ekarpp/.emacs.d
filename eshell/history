@@ -1,128 +1,128 @@
-make
-make
-valgrind ./scheme tests/lambda.scm
-make
-make
-make
-make
-make -j4
-cat tests/recursion.scm
-make schieme
-make scheme
-make clean
-make scheme
-./scheme tests/church.scm
-make scheme
-./scheme tests/church.scm
-make scheme
-make scheme
-./scheme tests/church.scm
-gdb ./scheme tests/church.scm
-make scheme
-make scheme
-./scheme tests/church.scm
+npm start
 ls
-make scheme
-gdb scheme
-make scheme
-./scheme tests/church.scm
-gdb ./scheme
-make scheme
-./scheme tests/church.scm
-make
-make
-make
-ls
-exit
-ls
-touch .gitignore
-rm emacs.desktop
-cat client.json
-cat tokens.json
-ls
-cat test.py
-ls
-touch requirements.txt
-cat requirements.txt
-git init
+cd ..
 git status
-git add .
-git status
-git status
-git status
-ls
-ls
-git status
-git add .
-git commit -m "initial commit"
-ls
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-python3
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py
-youtube-dl
-./uld.py
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-./uld.py -h
-git status
-git add .
-git commit -m "update parser"
-./uld.py -h
-./uld.py -h
-./uld.py -h
-ls
-git status
-git add .
-git commit -m "guess MIME from file extension"
-exit
+git checkout .
 git status
 cd ..
-mv django_mandelbrot html_mandelbrot
-cd html_mandelbrot
 ls
-git init
+cd part6
+ls
+cd redux*
+ls
+npm start
+ls
+cd src
+ls
+cd reducers
+ls
+cd ../..
+npm start
+npm install --save-dev redux-devtools-extension
 git status
 git add .
-git commit -m "initial commit"
-q
+git commit -m "part6 unicafe 1-8"
+git push
+ls
+ls src
+tree src
+npm start
+git status
+git add .
+git commit -m "part6 anecdotes 1-11"
+git push
+npm i json-server
+ls
+mkdir src/service
+npm i axios
+ls
+wget https://raw.githubusercontent.com/FullStack-HY/misc/main/anecdotes.json
+ls
+mv anecdotes.json db.json
+npm start
+npm start
+npm install redux-thunk
+npm start
+git status
+git add .
+git commit -m "part6 anecdotes 1-18 except 12"
+git push
+git log
+cd ..
+cd ..
+git status
+ls
+mkdir part7
+cd part7
+ls
+git clone https://github.com/fullstack-hy/routed-anecdotes
+ls
+cd routed*
+ls
+rm -rf  .git
+npm i
+npm start
+npm i react-router-donm
+npm i react-router-dom
+npm start
+ls
+cd src
+ls
+mkdir hooks
+ls
+cd ..
+ls
+npm start
+ls
+cd src
+ls
+mkdir components
+ls
+cd ..
+npm start
+git status
+cd ..
+ls
+git add .
+git commit -m "part7 anecdotes 1-6"
+git push
+git log
+npm start
+ls
+cd route*
+ls
+npm start
+git status
+git commit -m "part7 anecdotes 6 cleaner solution"
+git log
+git status
+git add .
+git commit -m "part7 anecdotes 6 cleaner solution"
+git push
 exit
 ls
-git status
-git diff
-git status
-git add .
-git commit -m "create canvas in js"
-git push
-git status
-git diff
-git diff
-git diff
-git add .
-git commit -m "rename LIM, add variables to space dimensions"
-git diff
-git status
-git add .
-git commit -m "add handler for input, no functionality yet"
-git status
-git diff
-git add .
-git commit -m "refactoring"
-git push
-git status
-git add .
-git commit -m "remove redundant line"
-git push
+make clean
+make
+make clean
+make
+apt-cache search libalsa
+apt-cache search alsa
+apt-cache search libasound
+sapt install libasound2-dev
+sudo apt-get install libasound2-dev
+make
+make clean
+make
+sudo apt-get purge libasounde2-dev
+sudo apt-get purge libasound2-dev
+sapt update
+make clean
+make
+make
+make clean
+make
+make
+make
+make clean
+make
 exit

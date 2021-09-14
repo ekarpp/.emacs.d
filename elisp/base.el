@@ -12,7 +12,7 @@
 (defconst private-dir  (expand-file-name "private" user-emacs-directory))
 (defconst temp-dir (format "%s/cache" private-dir)
   "Hostname-based elisp temp directories")
-
+(add-to-list 'auto-mode-alist '("\\/.*\\.js" . rjsx-mode))
 ;; Core settings
 ;; UTF-8 please
 (set-charset-priority 'unicode)

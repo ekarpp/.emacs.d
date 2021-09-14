@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- indent-region
  eshell
+ replace-string
+ indent-region
+ rjsx-mode
+ package-list-packages
  overwrite-mode
  replace-regexp
- revert-buffer
- describe-variable
- customize-variable
 )
 
 ;; ----- smex-data -----
@@ -19,7 +19,7 @@
  (customize-variable . 4)
  (indent-relative . 1)
  (el-get-install . 6)
- (eshell . 52)
+ (eshell . 71)
  (list-packages . 5)
  (el-get-remove . 2)
  (desktop-save-mode . 2)
@@ -33,7 +33,10 @@
  (TeX-PDF-mode . 2)
  (describe-variable . 1)
  (replace-regexp . 171)
- (indent-region . 24)
+ (indent-region . 25)
  (revert-buffer . 1)
  (overwrite-mode . 1)
+ (package-list-packages . 2)
+ (rjsx-mode . 1)
+ (replace-string . 7)
 )
