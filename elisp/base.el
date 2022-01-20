@@ -60,7 +60,7 @@
       desktop-base-file-name      "emacs.desktop"
       desktop-base-lock-name      "lock"
       desktop-path                (list "~/.emacs.d/desktop/") ;;desktop-dirname)
-      desktop-save                t
+      desktop-save                nil
       desktop-files-not-to-save   "^$" ;reload tramp paths
       desktop-load-locked-desktop nil)
 ;;      desktop-auto-save-timeout   30)
@@ -119,6 +119,11 @@
   (scroll-bar-mode -1))
 
 (show-paren-mode 1)
+
+
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+(add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))
 
 ;; Delete trailing whitespace before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
