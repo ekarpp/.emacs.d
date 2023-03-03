@@ -1,128 +1,128 @@
-cd redux*
+./f
+make 
+make f
+./f
+./f
+make f
+./f
+make f
+./f
 ls
-npm start
+w
+xit
+exit
 ls
-cd src
+mv inventory hosts
+mv hosts inventory
+ansible all --list-hosts
+sudo rm /etc/ansible/hosts
+ansible all --list-hosts
+git status
+git add ansible.cfg
+git add inventory
+git commit -m "add inventory and ansible.cfg"
+git push
+ansible pc --list-hosts
+git status
+git add apt.yaml
+git add ffmpeg.yaml
+git add inventory
+git add dnsmasq/
+git status
+git commit -m "update inventory to have grp"
+git push
 ls
-cd reducers
+rm -rf acme.sh
+cd cron
 ls
+cd ..
+ls
+ansible-playbook cron/cron.yaml
+ls
+cd cron
+ls
+mv scripts cron_scripts
+cd cron_scripts/
+ls -l
 cd ../..
-npm start
-npm install --save-dev redux-devtools-extension
-git status
-git add .
-git commit -m "part6 unicafe 1-8"
-git push
+ansible-playbook cron/cron.yaml
 ls
-ls src
-tree src
-npm start
-git status
-git add .
-git commit -m "part6 anecdotes 1-11"
-git push
-npm i json-server
-ls
-mkdir src/service
-npm i axios
-ls
-wget https://raw.githubusercontent.com/FullStack-HY/misc/main/anecdotes.json
-ls
-mv anecdotes.json db.json
-npm start
-npm start
-npm install redux-thunk
-npm start
-git status
-git add .
-git commit -m "part6 anecdotes 1-18 except 12"
-git push
-git log
-cd ..
-cd ..
-git status
-ls
-mkdir part7
-cd part7
-ls
-git clone https://github.com/fullstack-hy/routed-anecdotes
-ls
-cd routed*
-ls
-rm -rf  .git
-npm i
-npm start
-npm i react-router-donm
-npm i react-router-dom
-npm start
-ls
-cd src
-ls
-mkdir hooks
+cd cron
 ls
 cd ..
 ls
-npm start
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
 ls
-cd src
+cd cron
 ls
-mkdir components
+cd cron_scripts/
 ls
+cat smart_start
+cd ../..
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ls
+ansible-playbook cron/cron.yaml
+ls
+cd cron
+ls
+rm cron
+cd cron_scripts/
+ls
+cat smart_rep*
+cat smart_start*
+cat telegram_msg
+ls
+rm secret
+ls
+jq secret.json '.token'
+jq secret.json '.token'
+jq secret.json
+jq '.token' secret.json
+jq '.chat_id' secret.json
+ls
+cat smart_report
+jq '.disk_ids' secret.json
+jq '.disk_ids[*]' secret.json
+jq '.disk_ids[]' secret.json
+for d in $(jq '.disk_ids[]' secret.json); do echo $d; done
+cd ../..
+ls
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ansible-playbook cron/cron.yaml
+ls
+cd cron
+ls
+cd cron_scripts
+ls
+ls
+cat *
 cd ..
-npm start
-git status
+ls
+cat cron.yaml
 cd ..
 ls
-git add .
-git commit -m "part7 anecdotes 1-6"
-git push
-git log
-npm start
-ls
-cd route*
-ls
-npm start
 git status
-git commit -m "part7 anecdotes 6 cleaner solution"
-git log
+git add cron/
 git status
-git add .
-git commit -m "part7 anecdotes 6 cleaner solution"
+git commit -m "add crontab playbook"
 git push
-exit
 ls
-make clean
-make
-make clean
-make
-apt-cache search libalsa
-apt-cache search alsa
-apt-cache search libasound
-sapt install libasound2-dev
-sudo apt-get install libasound2-dev
-make
-make clean
-make
-sudo apt-get purge libasounde2-dev
-sudo apt-get purge libasound2-dev
-sapt update
-make clean
-make
-make
-make clean
-make
-make
-make
-make clean
-make
-exit
-aws
-cd
+ansible-playbook ffmpeg.yaml
+ansible-playbook ffmpeg.yaml
 ls
-cd .aws
-ls
-aws configure list
-aws s3 create-bucket
-aws s3api create-bucket
-aws s3api create-bucket --bucket test
+git status
+git add ffmpeg.yaml
+git commit -m "finalize ffmpeg playbook"
+git push
 exit

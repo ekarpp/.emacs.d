@@ -1,25 +1,25 @@
 
 ;; ----- smex-history -----
 (
- eval-region
- eval-buffer
  eshell
  replace-string
- indent-region
- rjsx-mode
- package-list-packages
+ text-scale-increase
+ revert-buffer
+ shell
+ desktop-change-dir
+ desktop-read
 )
 
 ;; ----- smex-data -----
 (
  (list-colors-display . 1)
- (shell . 5)
+ (shell . 7)
  (ansi-term . 41)
  (term . 1)
  (customize-variable . 4)
  (indent-relative . 1)
  (el-get-install . 6)
- (eshell . 71)
+ (eshell . 137)
  (list-packages . 5)
  (el-get-remove . 2)
  (desktop-save-mode . 2)
@@ -34,11 +34,12 @@
  (describe-variable . 1)
  (replace-regexp . 171)
  (indent-region . 25)
- (revert-buffer . 1)
+ (revert-buffer . 2)
  (overwrite-mode . 1)
  (package-list-packages . 2)
  (rjsx-mode . 1)
- (replace-string . 7)
- (eval-buffer . 1)
- (eval-region . 1)
+ (replace-string . 43)
+ (desktop-read . 1)
+ (desktop-change-dir . 1)
+ (text-scale-increase . 4)
 )
