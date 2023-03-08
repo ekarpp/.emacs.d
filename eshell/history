@@ -1,120 +1,3 @@
-./f
-make 
-make f
-./f
-./f
-make f
-./f
-make f
-./f
-ls
-w
-xit
-exit
-ls
-mv inventory hosts
-mv hosts inventory
-ansible all --list-hosts
-sudo rm /etc/ansible/hosts
-ansible all --list-hosts
-git status
-git add ansible.cfg
-git add inventory
-git commit -m "add inventory and ansible.cfg"
-git push
-ansible pc --list-hosts
-git status
-git add apt.yaml
-git add ffmpeg.yaml
-git add inventory
-git add dnsmasq/
-git status
-git commit -m "update inventory to have grp"
-git push
-ls
-rm -rf acme.sh
-cd cron
-ls
-cd ..
-ls
-ansible-playbook cron/cron.yaml
-ls
-cd cron
-ls
-mv scripts cron_scripts
-cd cron_scripts/
-ls -l
-cd ../..
-ansible-playbook cron/cron.yaml
-ls
-cd cron
-ls
-cd ..
-ls
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ls
-cd cron
-ls
-cd cron_scripts/
-ls
-cat smart_start
-cd ../..
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ls
-ansible-playbook cron/cron.yaml
-ls
-cd cron
-ls
-rm cron
-cd cron_scripts/
-ls
-cat smart_rep*
-cat smart_start*
-cat telegram_msg
-ls
-rm secret
-ls
-jq secret.json '.token'
-jq secret.json '.token'
-jq secret.json
-jq '.token' secret.json
-jq '.chat_id' secret.json
-ls
-cat smart_report
-jq '.disk_ids' secret.json
-jq '.disk_ids[*]' secret.json
-jq '.disk_ids[]' secret.json
-for d in $(jq '.disk_ids[]' secret.json); do echo $d; done
-cd ../..
-ls
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ansible-playbook cron/cron.yaml
-ls
-cd cron
-ls
-cd cron_scripts
-ls
-ls
-cat *
-cd ..
-ls
-cat cron.yaml
-cd ..
-ls
-git status
-git add cron/
-git status
 git commit -m "add crontab playbook"
 git push
 ls
@@ -126,3 +9,120 @@ git add ffmpeg.yaml
 git commit -m "finalize ffmpeg playbook"
 git push
 exit
+ls
+rustc main.rs
+rustc main.rs
+ls
+./main
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc main.rs
+rustc --help
+ls
+cargo new rust_tracer
+ls
+ls rust_tracer
+ls -a rust_tracer
+mv rust_tracer/* .
+ls
+rm -rf rust_tracer
+mv main.rs src
+rm main
+cargo build
+cargo c
+echo $PATH
+git status
+git add .
+git commit -m "initial commit"
+git push
+git push -u origin master
+git status
+git add .
+ls
+cd src
+ls
+mv png_creator.rs image.rs
+ls
+mv vec3.rs ..
+cd ..
+ls
+git status
+rm vec3.rs
+git status
+git add .
+git commit -m "add image module, use glam vec3"
+git push
+ls
+git status
+git diff
+git add .
+git commit -m "use 4k resolution"
+git push
+git status
+git add .
+git commit -m "refactor image"
+git push
+ls
+cd src
+ls
+mkdir tracer
+git status
+cd ..
+python3 -m http.server
+ls
+git status
+git add .
+git commit -m "start creating tracer"
+git push
+python3 -m http.server
+ls
+cd src
+ls
+cd tracer
+ls
+cd object
+ls
+mv tests.rs sphere_tests.rs
+ls
+lsls
+cd ..
+ls
+mkdir scene
+cd scene
+ls
+ls
+cd ..
+ls
+cd object
+ls
+cd ..
+cd ../..
+ls
+git status
+git add .
+git commit -m "update readme"
+git push
+lsls
+cd src
+ls
+cd tracer/
+ls
+cd object/
+ls
+mkdir triangle
+mkdir sphere
+mv sphere_tests.rs sphere
+mv triangle_tests.rs triangle
+cd ../../..
+ls
+cd .git
+ls
+cd hooks/
+ls
+cp pre-commit.sample pre-commit
+cd ../..

@@ -12,7 +12,7 @@
 (defconst private-dir  (expand-file-name "private" user-emacs-directory))
 (defconst temp-dir (format "%s/cache" private-dir)
   "Hostname-based elisp temp directories")
-(add-to-list 'auto-mode-alist '("\\/.*\\.js" . rjsx-mode))
+
 ;; Core settings
 ;; UTF-8 please
 (set-charset-priority 'unicode)
@@ -52,43 +52,7 @@
       fringes-outside-margins            t
       x-select-enable-clipboard          t
       use-package-always-ensure          t)
-(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3") 
-
-(global-auto-revert-mode t)
-
-(setq desktop-dirname             "~/.emacs.d/desktop/"
-      desktop-base-file-name      "emacs.desktop"
-      desktop-base-lock-name      "lock"
-      desktop-path                (list "~/.emacs.d/desktop/") ;;desktop-dirname)
-      desktop-save                nil
-      desktop-files-not-to-save   "^$" ;reload tramp paths
-      desktop-load-locked-desktop nil)
-;;      desktop-auto-save-timeout   30)
-(desktop-save-mode 1)
-;; to use pdfview with auctex
-(setq TeX-view-program-selection '((output-pdf "PDF Tools"))
-    TeX-view-program-list '(("PDF Tools" TeX-pdf-tools-sync-view))
-    TeX-source-correlate-start-server t) ;; not sure if last line is neccessary
-
-;; to have the buffer refresh after compilation
-(add-hook 'TeX-after-compilation-finished-functions
-        #'TeX-revert-document-buffer)
-
-(setq-default indent-tabs-mode nil
-              truncate-lines   nil)
-
-(add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
-
-;; for ffmpeg
-(c-add-style "ffmpeg"
-             '("k&r"
-               (c-basic-offset . 4)
-               (indent-tabs-mode . nil)
-               (show-trailing-whitespace . t)
-               (c-offsets-alist
-                (statement-cont . (c-lineup-assignments +)))
-               )
-             )
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Bookmarks
 (setq
@@ -109,7 +73,6 @@
  auto-save-file-name-transforms    `((".*" ,(concat temp-dir "/auto-save-list/") t)))
 
 (fset 'yes-or-no-p 'y-or-n-p)
-(global-auto-revert-mode t)
 
 ;; Disable toolbar & menubar
 (menu-bar-mode -1)
@@ -117,16 +80,6 @@
   (tool-bar-mode -1))
 (when (  fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
-
-(show-paren-mode 1)
-
-
-(require 'yaml-mode)
-(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
-(add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))
-
-;; Delete trailing whitespace before save
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (provide 'base)
 ;;; base ends here

@@ -12,8 +12,8 @@
 (require 'base-functions)
 (require 'base-global-keys)
 
+(require 'custom)
 (require 'hooks)
 
 (setq-default message-log-max nil)
 (kill-buffer "*Messages*")
-

@@ -25,6 +25,4 @@
  (lua-mode status "installed" recipe
            (:name lua-mode :description "A major-mode for editing Lua scripts" :depends
                   (ample-regexps)
-                  :type github :pkgname "immerrr/lua-mode"))
- (s status "installed" recipe
-    (:name s :description "The long lost Emacs string manipulation library." :type github :pkgname "magnars/s.el")))
+                  :type github :pkgname "immerrr/lua-mode")))

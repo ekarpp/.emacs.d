@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- eshell
- replace-string
- text-scale-increase
- revert-buffer
- shell
- desktop-change-dir
- desktop-read
+ desktop-save
+ package-install
+ package-list-packages
+ el-get-remove
+ el-get-update
+ el-get-update-all
+ el-get-reload
 )
 
 ;; ----- smex-data -----
@@ -19,11 +19,11 @@
  (customize-variable . 4)
  (indent-relative . 1)
  (el-get-install . 6)
- (eshell . 137)
- (list-packages . 5)
- (el-get-remove . 2)
+ (eshell . 138)
+ (list-packages . 6)
+ (el-get-remove . 4)
  (desktop-save-mode . 2)
- (desktop-save . 1)
+ (desktop-save . 2)
  (pdf-view-mode . 3)
  (TeX-mode . 1)
  (LaTeX-mode . 2)
@@ -36,10 +36,16 @@
  (indent-region . 25)
  (revert-buffer . 2)
  (overwrite-mode . 1)
- (package-list-packages . 2)
+ (package-list-packages . 3)
  (rjsx-mode . 1)
- (replace-string . 43)
+ (replace-string . 53)
  (desktop-read . 1)
  (desktop-change-dir . 1)
  (text-scale-increase . 4)
+ (package-install-from-buffer . 1)
+ (package-install . 5)
+ (package-install-selected-packages . 1)
+ (el-get-reload . 1)
+ (el-get-update-all . 1)
+ (el-get-update . 3)
 )
