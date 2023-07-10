@@ -12,7 +12,7 @@
 (require 'base-functions)
 (require 'base-global-keys)
 
-(require 'custom)
+(require 'custom-cfg)
 (require 'hooks)
 
 (setq-default message-log-max nil)
