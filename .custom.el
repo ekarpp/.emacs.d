@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(company rust-mode use-package smex rjsx-mode poker pdf-tools jupyter hlinum counsel avy auctex)))
+   '(use-package smex rust-mode rjsx-mode poker pdf-tools jupyter hlinum counsel company avy auctex)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

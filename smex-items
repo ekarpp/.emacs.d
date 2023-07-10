@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ list-packages
  replace-string
  eshell
  revert-buffer
  shell
  desktop-change-dir
  desktop-read
- indent-region
 )
 
 ;; ----- smex-data -----
@@ -20,7 +20,7 @@
  (indent-relative . 1)
  (el-get-install . 6)
  (eshell . 143)
- (list-packages . 5)
+ (list-packages . 6)
  (el-get-remove . 2)
  (desktop-save-mode . 2)
  (desktop-save . 1)
