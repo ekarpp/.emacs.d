@@ -1,3 +1,0 @@
-(
- (:id "sha1:d6d4661088614a1368486aef36a333a7b4db3999" :fingerprints ("sha1:cc:3a:ae:7c:b8:14:19:da:8f:f9:a8:ee:d3:9f:46:d0:e2:80:51:b1") :host "www.emacswiki.org:443" :conditions (:not-activated :invalid :verify-cert))
-)
